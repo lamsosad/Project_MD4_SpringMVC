@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.admin {
+    background-image: url("https://cdn.sforum.vn/sforum/wp-content/uploads/2023/02/hinh-nen-may-tinh-4k-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    font-size: 30px;
+}
+
+.order_show {
+    height: auto;
+    background-color: black;
+}
+
+.img-logo {
+    width: 80px;
+}
+
+.logo-admin {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo-admin:hover {
+    color: orange;
+}
+
+.option {
+    padding: 20px 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.navbar-admin a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-admin a:hover {
+    color: orange;
+}
+
+.navbar-admin {
+    border-radius: 5px;
+    color: black;
+    padding: 50px 50px;
+    width: 20%;
+    height: auto;
+}
+
+.container-admin {
+    display: flex;
+    height: 100%;
+}
+
+.title {
+    width: 100%;
+    height: 100vh!important;
+    border-radius: 5px;
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+    background-image: url("https://cdn.sforum.vn/sforum/wp-content/uploads/2023/02/hinh-nen-may-tinh-4k-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: auto!important;
+}
+
+
+.admin_title h2 {
+    margin-top: 200px;
+    font-size: 100px;
+}
+
+.title h1 {
+    font-size: 70px;
+}
+
+.title h1:hover {
+    color: orange;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table_order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.table_order td {
+    padding: 0 20px;
+}
+
+.table-product,
+.table-product th,
+.table-product td {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.table-product td,
+th {
+    text-align: center !important;
+    color: white !important;
+}
+
+.create_product {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.button_createPro {
+    margin-bottom: 20px;
+}
+
+.table_create input {
+    width: 400px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: rgba(61, 59, 59, 0.421);
+    color: rgb(255, 255, 255);
+}
+
+.show_product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.all_product {
+    text-align: left;
+}
+
+.img_product {
+    width: 400px;
+}
+
+.img_manager {
+    width: 50px;
+}
+
+.img_order {
+    width: 65px;
+}
+
+.crossword_img {
+    background-color: white;
+}
+
+.total {
+    padding: 20px;
+    text-align: left;
+}
+
+.form_user_order {
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form_user_order th,
+td {
+    text-align: left;
+    padding: 0 20px;
+}
+
+.total b {
+    color: orange;
+}
+
+input {
+    border-radius: 5px;
+}

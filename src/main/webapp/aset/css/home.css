@@ -1,0 +1,139 @@
+.container-fluid {
+    margin: 0;
+    padding: 0 !important;
+}
+
+body {
+    background-color: rgb(237, 236, 236) !important;
+}
+
+.logo_ing {
+    width: 60px;
+}
+
+.logo-navbar a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.logo-navbar a:hover {
+    color: orange;
+}
+
+.logo-navbar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+}
+
+header {
+    width: 100vw;
+    position: fixed !important;
+    z-index: 1000 !important;
+    top: 0;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+.video_slide video {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+.catalog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 50px;
+}
+
+.info_store svg {
+    width: 20px;
+
+}
+
+.info_store a {
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+
+}
+
+.info_store {
+    color: rgb(201, 201, 201);
+
+}
+
+.product {
+    text-align: center;
+    margin: 0 15% !important;
+}
+
+.container {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.card-footer a {
+    text-decoration: none !important;
+
+}
+
+.card-footer button {
+    height: 40px !important;
+}
+
+.card {
+    width: 100%;
+    overflow: hidden !important;
+    border-radius: 15px !important;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px 5px rgba(128, 128, 128, 0.468);
+}
+
+.card button:hover {
+    background-color: rgba(0, 0, 0, 0.421);
+    color: black;
+}
+
+.next {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.next button {
+    border-radius: 20px;
+}
+
+.next button:hover {
+    background-color: orange;
+    color: black;
+    box-shadow: 0 0 10px 5px rgba(128, 128, 128, 0.468);
+}
+
+.show_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.img_showone:hover {
+    box-shadow: 0 0 10px 5px rgba(128, 128, 128, 0.468);
+}
